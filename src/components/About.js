@@ -32,36 +32,36 @@ const [but,setBut]=useState("Enable Dark mymode");
   <div className="accordion-item " style={mymode}>
     <h2 className="accordion-header" style={mymode}>
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={mymode}>
-        Accordion Item #1
+        Analyze your text
       </button>
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div className="accordion-body" style={mymode}>
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        Textutils gives a way to analyze your text quickly and efficiently. Be it word count, character count.
       </div>
     </div>
   </div>
   <div className="accordion-item" style={mymode}>
     <h2 className="accordion-header" style={mymode}>
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style={mymode}>
-        Accordion Item #2
+        Free to use
       </button>
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div className="accordion-body" style={mymode}>
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+       TextUtils is a free character tool that provides instant character count and word count statistics for a given text. Textutils reports the number of words and charcters. Thus it is suitable for wirting text with wirds /charater limit. 
       </div>
     </div>
   </div>
   <div className="accordion-item" style={mymode}>
     <h2 className="accordion-header" style={mymode}>
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style={mymode}>
-        Accordion Item #3
+        Browzer compatible
       </button>
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div className="accordion-body" style={mymode}>
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+       This word counter software works in  any web browzers such as chrome, firefox, Internet explorer , safari , opera. it suits to count character in facebook, blog, books, exel documents, pdf documents , essays etc.
       </div>
     </div>
   </div>
